@@ -1,9 +1,9 @@
 {
   "name": "tailwind-starter",
   "scripts": {
-    "build": "tailwindcss build -i ./src/css/tailwind.css -o ./build/css/tailwind.css",
-    "watch": "tailwindcss -i ./src/css/tailwind.css -o ./build/css/tailwind.css -w",
-    "prod": "NODE_ENV=production tailwindcss -i ./src/css/tailwind.css -o ./build/css/tailwind.css --minify"
+    "build": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css build",
+    "watch": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css -w",
+    "prod": "NODE_ENV=production tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css --minify"
   },
   "author": "codlipa",
   "license": "ISC",
