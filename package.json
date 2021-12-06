@@ -1,9 +1,9 @@
 {
-  "name": "tailwind-starter",
+  "name": "tailwind-css-starter-kit",
   "scripts": {
-    "build": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css build",
-    "watch": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css -w",
-    "prod": "NODE_ENV=production tailwindcss -i src/css/tailwind.css -o build/css/tailwind.css --minify"
+    "build": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.min.css build",
+    "watch": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.min.css -w",
+    "prod": "NODE_ENV=production tailwindcss -i src/css/tailwind.css -o build/css/tailwind.min.css --minify"
   },
   "author": "codlipa",
   "license": "ISC",
