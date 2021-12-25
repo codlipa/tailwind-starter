@@ -5,7 +5,7 @@
     "watch": "tailwindcss -i src/css/tailwind.css -o build/css/tailwind.min.css -w",
     "prod": "NODE_ENV=production tailwindcss -i src/css/tailwind.css -o build/css/tailwind.min.css --minify"
   },
-  "author": "codlipa",
+  "author": "thelabuzov",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.3.7",
